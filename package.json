@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "lint": "eslint src/**/*.js src/**/*.jsx",
     "lint-fix": "eslint src/**/*.js src/**/*.jsx --fix",
-    "test": "test"
+    "test": "test",
+    "storybook": "start-storybook"
   },
   "author": "",
   "license": "MIT",
@@ -16,6 +17,7 @@
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
+    "@storybook/react": "^5.3.10",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",

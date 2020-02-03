@@ -5,6 +5,6 @@ import {Test} from 'components/test-component/test-component';
 export const App = () => (
   <div>
     <p>React here!</p>
-    <Test />
+    <Test description="test description" />
   </div>
 );
